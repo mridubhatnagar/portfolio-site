@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body,html {
+    font-family: 'Montserrat', 'sans-serif';
+    margin: 0px 0px;
+    /* padding-left: 1rem; */
+    max-height: 100vh;
+
+}
+
+:root {
+    --primary-color: #7C3AED;
+    --dark-gray: #9CA3AF;
+    --off-white: #F9FAFB;
+    --light-gray: #E5E7EB;
+
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    margin: auto;
+    max-width: 400px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.links {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    
+}
+
+hr {
+    margin: 1rem 0rem;
+}
+
+.secondary-link {
+    border: 1px solid;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.list-no-bullet {
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+}
+
+.navigation .navigation-heading {
+    color: white;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    padding: 1rem;
+}
+
+.navigation li > a {
+    color: white;
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+
+.header .header-img1 {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.header .img-heading1 {
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.header .header-img2 {
+    max-width: 400px;
+    margin-top: 10%;
+}
+
+.header .img-heading2 {
+    color: var(--dark-gray);
+}
+
+.section {
+    background-color: var(--light-gray);
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.footer ul li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    margin-bottom: 0rem;
+}
+
+.social-links {
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.social-links li {
+    padding: 0rem 1rem;
+}
+
+.footer .footer-heading {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-weight: bold;
+}
+
+
+.container-right {
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
